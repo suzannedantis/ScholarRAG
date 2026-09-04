@@ -1,0 +1,655 @@
+[
+  {
+    "id": "P000",
+    "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "abstract": "Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval, the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces up-to-date evaluation framework and benchmark. At the end, this article delineates the challenges currently faced and points out prospective avenues for research and development.",
+    "year": 2023,
+    "field": "Retrieval-Augmented Generation",
+    "methodology": "Retrieval-Augmented Generation",
+    "author_ids": [
+      "A000",
+      "A001",
+      "A002",
+      "A003"
+    ],
+    "citation_ids": [
+      "P002"
+    ],
+    "openalex_id": "https://openalex.org/W4389984066",
+    "cited_by_count": 725
+  },
+  {
+    "id": "P001",
+    "title": "A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models",
+    "abstract": "As one of the most advanced techniques in AI, Retrieval-Augmented Generation (RAG) can offer reliable and up-to-date external knowledge, providing huge convenience for numerous tasks. Particularly in the era of AI-Generated Content (AIGC), the powerful capacity of retrieval in providing additional knowledge enables RAG to assist existing generative AI in producing high-quality outputs. Recently, Large Language Models (LLMs) have demonstrated revolutionary abilities in language understanding and generation, while still facing inherent limitations such as hallucinations and out-of-date internal knowledge. Given the powerful abilities of RAG in providing the latest and helpful auxiliary information, Retrieval-Augmented Large Language Models (RA-LLMs) have emerged to harness external and authoritative knowledge bases, rather than solely relying on the model's internal knowledge, to augment the quality of the generated content of LLMs. In this survey, we comprehensively review existing research studies in RA-LLMs, covering three primary technical perspectives: Furthermore, to deliver deeper insights, we discuss current limitations and several promising directions for future research. Updated information about this survey can be found at: https://advanced-recommender-systems.github.io/RAG-Meets-LLMs/",
+    "year": 2024,
+    "field": "Retrieval-Augmented Generation",
+    "methodology": "Retrieval-Augmented Generation",
+    "author_ids": [
+      "A004",
+      "A005",
+      "A006",
+      "A007"
+    ],
+    "citation_ids": [
+      "P005",
+      "P004"
+    ],
+    "openalex_id": "https://openalex.org/W4401857375",
+    "cited_by_count": 722
+  },
+  {
+    "id": "P002",
+    "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+    "abstract": "Language model pre-training has been shown to capture a surprising amount of world knowledge, crucial for NLP tasks such as question answering. However, this knowledge is stored implicitly in the parameters of a neural network, requiring ever-larger networks to cover more facts. To capture knowledge in a more modular and interpretable way, we augment language model pre-training with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fine-tuning and inference. For the first time, we show how to pre-train such a knowledge retriever in an unsupervised manner, using masked language modeling as the learning signal and backpropagating through a retrieval step that considers millions of documents. We demonstrate the effectiveness of Retrieval-Augmented Language Model pre-training (REALM) by fine-tuning on the challenging task of Open-domain Question Answering (Open-QA). We compare against state-of-the-art models for both explicit and implicit knowledge storage on three popular Open-QA benchmarks, and find that we outperform all previous methods by a significant margin (4-16% absolute accuracy), while also providing qualitative benefits such as interpretability and modularity.",
+    "year": 2020,
+    "field": "Retrieval-Augmented Generation",
+    "methodology": "Retrieval-Augmented Generation",
+    "author_ids": [
+      "A008",
+      "A009",
+      "A010",
+      "A011"
+    ],
+    "citation_ids": [
+      "P028",
+      "P012"
+    ],
+    "openalex_id": "https://openalex.org/W3007672467",
+    "cited_by_count": 521
+  },
+  {
+    "id": "P003",
+    "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+    "abstract": "Shahul Es, Jithin James, Luis Espinosa Anke, Steven Schockaert. Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations. 2024.",
+    "year": 2024,
+    "field": "Retrieval-Augmented Generation",
+    "methodology": "Retrieval-Augmented Generation",
+    "author_ids": [
+      "A012",
+      "A013",
+      "A014",
+      "A015"
+    ],
+    "citation_ids": [
+      "P002",
+      "P000",
+      "P004"
+    ],
+    "openalex_id": "https://openalex.org/W4411630045",
+    "cited_by_count": 430
+  },
+  {
+    "id": "P004",
+    "title": "Active Retrieval Augmented Generation",
+    "abstract": "Zhengbao Jiang, Frank Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan, Graham Neubig. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 2023.",
+    "year": 2023,
+    "field": "Retrieval-Augmented Generation",
+    "methodology": "Retrieval-Augmented Generation",
+    "author_ids": [
+      "A016",
+      "A017",
+      "A018",
+      "A019"
+    ],
+    "citation_ids": [
+      "P002",
+      "P005"
+    ],
+    "openalex_id": "https://openalex.org/W4389519118",
+    "cited_by_count": 428
+  },
+  {
+    "id": "P005",
+    "title": "In-Context Retrieval-Augmented Language Models",
+    "abstract": "Abstract Retrieval-Augmented Language Modeling (RALM) methods, which condition a language model (LM) on relevant documents from a grounding corpus during generation, were shown to significantly improve language modeling performance. In addition, they can mitigate the problem of factually inaccurate text generation and provide natural source attribution mechanism. Existing RALM approaches focus on modifying the LM architecture in order to facilitate the incorporation of external information, significantly complicating deployment. This paper considers a simple alternative, which we dub In-Context RALM: leaving the LM architecture unchanged and prepending grounding documents to the input, without any further training of the LM. We show that In-Context RALM that builds on off-the-shelf general purpose retrievers provides surprisingly large LM gains across model sizes and diverse corpora. We also demonstrate that the document retrieval and ranking mechanism can be specialized to the RALM setting to further boost performance. We conclude that In-Context RALM has considerable potential to increase the prevalence of LM grounding, particularly in settings where a pretrained LM must be used without modification or even via API access.1",
+    "year": 2023,
+    "field": "Retrieval-Augmented Generation",
+    "methodology": "Retrieval-Augmented Generation",
+    "author_ids": [
+      "A020",
+      "A021",
+      "A022",
+      "A023"
+    ],
+    "citation_ids": [
+      "P028",
+      "P029"
+    ],
+    "openalex_id": "https://openalex.org/W4388778348",
+    "cited_by_count": 399
+  },
+  {
+    "id": "P006",
+    "title": "A Comprehensive Survey on Graph Neural Networks",
+    "abstract": "Deep learning has revolutionized many machine learning tasks in recent years, ranging from image classification and video processing to speech recognition and natural language understanding. The data in these tasks are typically represented in the Euclidean space. However, there is an increasing number of applications, where data are generated from non-Euclidean domains and are represented as graphs with complex relationships and interdependency between objects. The complexity of graph data has imposed significant challenges on the existing machine learning algorithms. Recently, many studies on extending deep learning approaches for graph data have emerged. In this article, we provide a comprehensive overview of graph neural networks (GNNs) in data mining and machine learning fields. We propose a new taxonomy to divide the state-of-the-art GNNs into four categories, namely, recurrent GNNs, convolutional GNNs, graph autoencoders, and spatial-temporal GNNs. We further discuss the applications of GNNs across various domains and summarize the open-source codes, benchmark data sets, and model evaluation of GNNs. Finally, we propose potential research directions in this rapidly growing field.",
+    "year": 2020,
+    "field": "Graph Neural Networks",
+    "methodology": "Graph Attention Networks",
+    "author_ids": [
+      "A024",
+      "A025",
+      "A026",
+      "A027"
+    ],
+    "citation_ids": [
+      "P009",
+      "P010"
+    ],
+    "openalex_id": "https://openalex.org/W2907492528",
+    "cited_by_count": 9855
+  },
+  {
+    "id": "P007",
+    "title": "Graph neural networks: A review of methods and applications",
+    "abstract": "Lots of learning tasks require dealing with graph data which contains rich relation information among elements. Modeling physics systems, learning molecular fingerprints, predicting protein interface, and classifying diseases demand a model to learn from graph inputs. In other domains such as learning from non-structural data like texts and images, reasoning on extracted structures (like the dependency trees of sentences and the scene graphs of images) is an important research topic which also needs graph reasoning models. Graph neural networks (GNNs) are neural models that capture the dependence of graphs via message passing between the nodes of graphs. In recent years, variants of GNNs such as graph convolutional network (GCN), graph attention network (GAT), graph recurrent network (GRN) have demonstrated ground-breaking performances on many deep learning tasks. In this survey, we propose a general design pipeline for GNN models and discuss the variants of each component, systematically categorize the applications, and propose four open problems for future research.",
+    "year": 2020,
+    "field": "Graph Neural Networks",
+    "methodology": "Graph Attention Networks",
+    "author_ids": [
+      "A028",
+      "A029",
+      "A030",
+      "A031"
+    ],
+    "citation_ids": [
+      "P028",
+      "P010",
+      "P014"
+    ],
+    "openalex_id": "https://openalex.org/W3152893301",
+    "cited_by_count": 5808
+  },
+  {
+    "id": "P008",
+    "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
+    "abstract": "Identifying a maximum independent set is a fundamental NP-hard problem. This problem has several real-world applications and requires finding the largest possible set of vertices not adjacent to each other in an undirected graph. Over the past few years, branch-and-bound and branch-and-reduce algorithms have emerged as some of the most effective methods for solving the problem exactly. Specifically, the branch-and-reduce approach, which combines branch-and-bound principles with reduction rules, has proven particularly successful in tackling previously unmanageable real-world instances. This progress was largely made possible by the development of more effective reduction rules. Nevertheless, other key components that can impact the efficiency of these algorithms have not received the same level of interest. Among these is the branching strategy, which determines which vertex to branch on next. Until recently, the most widely used strategy was to choose the vertex of the highest degree. In this work, we present a graph neural network approach for selecting the next branching vertex. The intricate nature of current branch-and-bound solvers makes supervised and reinforcement learning difficult. Therefore, we use a population-based genetic algorithm to evolve the model's parameters instead. Our proposed approach results in a speedup on 73% of the benchmark instances with a median speedup of 24%.",
+    "year": 2024,
+    "field": "Graph Neural Networks",
+    "methodology": "Graph Attention Networks",
+    "author_ids": [
+      "A032",
+      "A033",
+      "A034",
+      "A035"
+    ],
+    "citation_ids": [
+      "P007"
+    ],
+    "openalex_id": "https://openalex.org/W4294558607",
+    "cited_by_count": 5417
+  },
+  {
+    "id": "P009",
+    "title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+    "abstract": "Recent advancements in deep neural networks for graph-structured data have led to state-of-the-art performance on recommender system benchmarks. However, making these methods practical and scalable to web-scale recommendation tasks with billions of items and hundreds of millions of users remains an unsolved challenge. Here we describe a large-scale deep recommendation engine that we developed and deployed at Pinterest. We develop a data-efficient Graph Convolutional Network (GCN) algorithm, which combines efficient random walks and graph convolutions to generate embeddings of nodes (i.e., items) that incorporate both graph structure as well as node feature information. Compared to prior GCN approaches, we develop a novel method based on highly efficient random walks to structure the convolutions and design a novel training strategy that relies on harder-and-harder training examples to improve robustness and convergence of the model. We also develop an efficient MapReduce model inference algorithm to generate embeddings using a trained model. Overall, we can train on and embed graphs that are four orders of magnitude larger than typical GCN implementations. We show how GCN embeddings can be used to make high-quality recommendations in various settings at Pinterest, which has a massive underlying graph with 3 billion nodes representing pins and boards, and 17 billion edges. According to offline metrics, user studies, as well as A/B tests, our approach generates higher-quality recommendations than comparable deep learning based systems. To our knowledge, this is by far the largest application of deep graph embeddings to date and paves the way for a new generation of web-scale recommender systems based on graph convolutional architectures.",
+    "year": 2018,
+    "field": "Graph Neural Networks",
+    "methodology": "Graph Attention Networks",
+    "author_ids": [
+      "A036",
+      "A037",
+      "A038",
+      "A039"
+    ],
+    "citation_ids": [
+      "P013",
+      "P014",
+      "P011"
+    ],
+    "openalex_id": "https://openalex.org/W2807021761",
+    "cited_by_count": 2836
+  },
+  {
+    "id": "P010",
+    "title": "Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties",
+    "abstract": "The use of machine learning methods for accelerating the design of crystalline materials usually requires manually constructed feature vectors or complex transformation of atom coordinates to input the crystal structure, which either constrains the model to certain crystal types or makes it difficult to provide chemical insights. Here, we develop a crystal graph convolutional neural networks framework to directly learn material properties from the connection of atoms in the crystal, providing a universal and interpretable representation of crystalline materials. Our method provides a highly accurate prediction of density functional theory calculated properties for eight different properties of crystals with various structure types and compositions after being trained with 10^{4} data points. Further, our framework is interpretable because one can extract the contributions from local chemical environments to global properties. Using an example of perovskites, we show how this information can be utilized to discover empirical rules for materials design.",
+    "year": 2018,
+    "field": "Graph Neural Networks",
+    "methodology": "Graph Attention Networks",
+    "author_ids": [
+      "A040",
+      "A041"
+    ],
+    "citation_ids": [
+      "P009"
+    ],
+    "openalex_id": "https://openalex.org/W2766856748",
+    "cited_by_count": 2821
+  },
+  {
+    "id": "P011",
+    "title": "Wide & Deep Learning for Recommender Systems",
+    "abstract": "Generalized linear models with nonlinear feature transformations are widely used for large-scale regression and classification problems with sparse inputs. Memorization of feature interactions through a wide set of cross-product feature transformations are effective and interpretable, while generalization requires more feature engineering effort. With less feature engineering, deep neural networks can generalize better to unseen feature combinations through low-dimensional dense embeddings learned for the sparse features. However, deep neural networks with embeddings can over-generalize and recommend less relevant items when the user-item interactions are sparse and high-rank. In this paper, we present Wide & Deep learning---jointly trained wide linear models and deep neural networks---to combine the benefits of memorization and generalization for recommender systems. We productionized and evaluated the system on Google Play, a commercial mobile app store with over one billion active users and over one million apps. Online experiment results show that Wide & Deep significantly increased app acquisitions compared with wide-only and deep-only models. We have also open-sourced our implementation in TensorFlow.",
+    "year": 2016,
+    "field": "Recommender Systems",
+    "methodology": "Matrix Factorization",
+    "author_ids": [
+      "A042",
+      "A043",
+      "A044",
+      "A045"
+    ],
+    "citation_ids": [
+      "P014"
+    ],
+    "openalex_id": "https://openalex.org/W2475334473",
+    "cited_by_count": 3414
+  },
+  {
+    "id": "P012",
+    "title": "DeepSurv: personalized treatment recommender system using a Cox proportional hazards deep neural network",
+    "abstract": "BACKGROUND: Medical practitioners use survival models to explore and understand the relationships between patients' covariates (e.g. clinical and genetic features) and the effectiveness of various treatment options. Standard survival models like the linear Cox proportional hazards model require extensive feature engineering or prior medical knowledge to model treatment interaction at an individual level. While nonlinear survival methods, such as neural networks and survival forests, can inherently model these high-level interaction terms, they have yet to be shown as effective treatment recommender systems. METHODS: We introduce DeepSurv, a Cox proportional hazards deep neural network and state-of-the-art survival method for modeling interactions between a patient's covariates and treatment effectiveness in order to provide personalized treatment recommendations. RESULTS: We perform a number of experiments training DeepSurv on simulated and real survival data. We demonstrate that DeepSurv performs as well as or better than other state-of-the-art survival models and validate that DeepSurv successfully models increasingly complex relationships between a patient's covariates and their risk of failure. We then show how DeepSurv models the relationship between a patient's features and effectiveness of different treatment options to show how DeepSurv can be used to provide individual treatment recommendations. Finally, we train DeepSurv on real clinical studies to demonstrate how it's personalized treatment recommendations would increase the survival time of a set of patients. CONCLUSIONS: The predictive and modeling capabilities of DeepSurv will enable medical researchers to use deep neural networks as a tool in their exploration, understanding, and prediction of the effects of a patient's characteristics on their risk of failure.",
+    "year": 2018,
+    "field": "Recommender Systems",
+    "methodology": "Matrix Factorization",
+    "author_ids": [
+      "A046",
+      "A047",
+      "A048",
+      "A049"
+    ],
+    "citation_ids": [
+      "P014",
+      "P013",
+      "P011"
+    ],
+    "openalex_id": "https://openalex.org/W2753919178",
+    "cited_by_count": 2013
+  },
+  {
+    "id": "P013",
+    "title": "Collaborative Knowledge Base Embedding for Recommender Systems",
+    "abstract": "Among different recommendation techniques, collaborative filtering usually suffer from limited performance due to the sparsity of user-item interactions. To address the issues, auxiliary information is usually used to boost the performance. Due to the rapid collection of information on the web, the knowledge base provides heterogeneous information including both structured and unstructured data with different semantics, which can be consumed by various applications. In this paper, we investigate how to leverage the heterogeneous information in a knowledge base to improve the quality of recommender systems. First, by exploiting the knowledge base, we design three components to extract items' semantic representations from structural content, textual content and visual content, respectively. To be specific, we adopt a heterogeneous network embedding method, termed as TransR, to extract items' structural representations by considering the heterogeneity of both nodes and relationships. We apply stacked denoising auto-encoders and stacked convolutional auto-encoders, which are two types of deep learning based embedding techniques, to extract items' textual representations and visual representations, respectively. Finally, we propose our final integrated framework, which is termed as Collaborative Knowledge Base Embedding (CKE), to jointly learn the latent representations in collaborative filtering as well as items' semantic representations from the knowledge base. To evaluate the performance of each embedding component as well as the whole system, we conduct extensive experiments with two real-world datasets from different scenarios. The results reveal that our approaches outperform several widely adopted state-of-the-art recommendation methods.",
+    "year": 2016,
+    "field": "Recommender Systems",
+    "methodology": "Matrix Factorization",
+    "author_ids": [
+      "A050",
+      "A051",
+      "A052",
+      "A053"
+    ],
+    "citation_ids": [
+      "P014"
+    ],
+    "openalex_id": "https://openalex.org/W2509893387",
+    "cited_by_count": 1812
+  },
+  {
+    "id": "P014",
+    "title": "Collaborative Deep Learning for Recommender Systems",
+    "abstract": "Collaborative filtering (CF) is a successful approach commonly used by many recommender systems. Conventional CF-based methods use the ratings given to items by users as the sole source of information for learning to make recommendation. However, the ratings are often very sparse in many applications, causing CF-based methods to degrade significantly in their recommendation performance. To address this sparsity problem, auxiliary information such as item content information may be utilized. Collaborative topic regression (CTR) is an appealing recent method taking this approach which tightly couples the two components that learn from two different sources of information. Nevertheless, the latent representation learned by CTR may not be very effective when the auxiliary information is very sparse. To address this problem, we generalize recently advances in deep learning from i.i.d. input to non-i.i.d. (CF-based) input and propose in this paper a hierarchical Bayesian model called collaborative deep learning (CDL), which jointly performs deep representation learning for the content information and collaborative filtering for the ratings (feedback) matrix. Extensive experiments on three real-world datasets from different domains show that CDL can significantly advance the state of the art.",
+    "year": 2015,
+    "field": "Recommender Systems",
+    "methodology": "Matrix Factorization",
+    "author_ids": [
+      "A054",
+      "A055",
+      "A056"
+    ],
+    "citation_ids": [],
+    "openalex_id": "https://openalex.org/W2157881433",
+    "cited_by_count": 1659
+  },
+  {
+    "id": "P015",
+    "title": "Deep Learning Based Recommender System",
+    "abstract": "With the growing volume of online information, recommender systems have been an effective strategy to overcome information overload. The utility of recommender systems cannot be overstated, given their widespread adoption in many web applications, along with their potential impact to ameliorate many problems related to over-choice. In recent years, deep learning has garnered considerable interest in many research fields such as computer vision and natural language processing, owing not only to stellar performance but also to the attractive property of learning feature representations from scratch. The influence of deep learning is also pervasive, recently demonstrating its effectiveness when applied to information retrieval and recommender systems research. The field of deep learning in recommender system is flourishing. This article aims to provide a comprehensive review of recent research efforts on deep learning-based recommender systems. More concretely, we provide and devise a taxonomy of deep learning-based recommendation models, along with a comprehensive summary of the state of the art. Finally, we expand on current trends and provide new perspectives pertaining to this new and exciting development of the field.",
+    "year": 2019,
+    "field": "Recommender Systems",
+    "methodology": "Matrix Factorization",
+    "author_ids": [
+      "A057",
+      "A058",
+      "A059",
+      "A060"
+    ],
+    "citation_ids": [
+      "P014",
+      "P011",
+      "P013",
+      "P009"
+    ],
+    "openalex_id": "https://openalex.org/W4288083766",
+    "cited_by_count": 1462
+  },
+  {
+    "id": "P016",
+    "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+    "abstract": "We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning. MoCo provides competitive results under the common linear protocol on ImageNet classification. More importantly, the representations learned by MoCo transfer well to downstream tasks. MoCo can outperform its supervised pre-training counterpart in 7 detection/segmentation tasks on PASCAL VOC, COCO, and other datasets, sometimes surpassing it by large margins. This suggests that the gap between unsupervised and supervised representation learning has been largely closed in many vision tasks.",
+    "year": 2020,
+    "field": "Contrastive Learning",
+    "methodology": "Contrastive Learning",
+    "author_ids": [
+      "A061",
+      "A062",
+      "A063",
+      "A064"
+    ],
+    "citation_ids": [
+      "P028",
+      "P017",
+      "P019"
+    ],
+    "openalex_id": "https://openalex.org/W3035524453",
+    "cited_by_count": 12515
+  },
+  {
+    "id": "P017",
+    "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+    "abstract": "This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank. In order to understand what enables the contrastive prediction tasks to learn useful representations, we systematically study the major components of our framework. We show that (1) composition of data augmentations plays a critical role in defining effective predictive tasks, (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning. By combining these findings, we are able to considerably outperform previous methods for self-supervised and semi-supervised learning on ImageNet. A linear classifier trained on self-supervised representations learned by SimCLR achieves 76.5% top-1 accuracy, which is a 7% relative improvement over previous state-of-the-art, matching the performance of a supervised ResNet-50. When fine-tuned on only 1% of the labels, we achieve 85.8% top-5 accuracy, outperforming AlexNet with 100X fewer labels.",
+    "year": 2020,
+    "field": "Contrastive Learning",
+    "methodology": "Contrastive Learning",
+    "author_ids": [
+      "A065",
+      "A066",
+      "A067",
+      "A068"
+    ],
+    "citation_ids": [
+      "P016"
+    ],
+    "openalex_id": "https://openalex.org/W3005680577",
+    "cited_by_count": 7341
+  },
+  {
+    "id": "P018",
+    "title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+    "abstract": "This paper presents SimCSE, a simple contrastive learning framework that greatly advances the state-of-the-art sentence embeddings. We first describe an unsupervised approach, which takes an input sentence and predicts itself in a contrastive objective, with only standard dropout used as noise. This simple method works surprisingly well, performing on par with previous supervised counterparts. We find that dropout acts as minimal data augmentation and removing it leads to a representation collapse. Then, we propose a supervised approach, which incorporates annotated pairs from natural language inference datasets into our contrastive learning framework, by using \"entailment\" pairs as positives and \"contradiction\" pairs as hard negatives. We evaluate SimCSE on standard semantic textual similarity (STS) tasks, and our unsupervised and supervised models using BERT base achieve an average of 76.3% and 81.6% Spearman's correlation respectively, a 4.2% and 2.2% improvement compared to previous best results. We also show-both theoretically and empirically-that contrastive learning objective regularizes pre-trained embeddings' anisotropic space to be more uniform, and it better aligns positive pairs when supervised signals are available. 1",
+    "year": 2021,
+    "field": "Contrastive Learning",
+    "methodology": "Contrastive Learning",
+    "author_ids": [
+      "A069",
+      "A070",
+      "A071"
+    ],
+    "citation_ids": [
+      "P028",
+      "P029",
+      "P017"
+    ],
+    "openalex_id": "https://openalex.org/W3156636935",
+    "cited_by_count": 2645
+  },
+  {
+    "id": "P019",
+    "title": "Improved Baselines with Momentum Contrastive Learning",
+    "abstract": "Contrastive unsupervised learning has recently shown encouraging progress, e.g., in Momentum Contrast (MoCo) and SimCLR. In this note, we verify the effectiveness of two of SimCLR's design improvements by implementing them in the MoCo framework. With simple modifications to MoCo---namely, using an MLP projection head and more data augmentation---we establish stronger baselines that outperform SimCLR and do not require large training batches. We hope this will make state-of-the-art unsupervised learning research more accessible. Code will be made public.",
+    "year": 2020,
+    "field": "Contrastive Learning",
+    "methodology": "Contrastive Learning",
+    "author_ids": [
+      "A072",
+      "A062",
+      "A073",
+      "A061"
+    ],
+    "citation_ids": [
+      "P017",
+      "P016"
+    ],
+    "openalex_id": "https://openalex.org/W3009561768",
+    "cited_by_count": 2112
+  },
+  {
+    "id": "P020",
+    "title": "Unsupervised Learning of Visual Features by Contrasting Cluster Assignments",
+    "abstract": "Unsupervised image representations have significantly reduced the gap with supervised pretraining, notably with the recent achievements of contrastive learning methods. These contrastive methods typically work online and rely on a large number of explicit pairwise feature comparisons, which is computationally challenging. In this paper, we propose an online algorithm, SwAV, that takes advantage of contrastive methods without requiring to compute pairwise comparisons. Specifically, our method simultaneously clusters the data while enforcing consistency between cluster assignments produced for different augmentations (or views) of the same image, instead of comparing features directly as in contrastive learning. Simply put, we use a swapped prediction mechanism where we predict the cluster assignment of a view from the representation of another view. Our method can be trained with large and small batches and can scale to unlimited amounts of data. Compared to previous contrastive methods, our method is more memory efficient since it does not require a large memory bank or a special momentum network. In addition, we also propose a new data augmentation strategy, multi-crop, that uses a mix of views with different resolutions in place of two full-resolution views, without increasing the memory or compute requirements much. We validate our findings by achieving 75.3% top-1 accuracy on ImageNet with ResNet-50, as well as surpassing supervised pretraining on all the considered transfer tasks.",
+    "year": 2020,
+    "field": "Contrastive Learning",
+    "methodology": "Contrastive Learning",
+    "author_ids": [
+      "A074",
+      "A075",
+      "A076",
+      "A077"
+    ],
+    "citation_ids": [
+      "P017",
+      "P019"
+    ],
+    "openalex_id": "https://openalex.org/W3036224891",
+    "cited_by_count": 1907
+  },
+  {
+    "id": "P021",
+    "title": "Model-Contrastive Federated Learning",
+    "abstract": "Federated learning enables multiple parties to collaboratively train a machine learning model without communicating their local data. A key challenge in federated learning is to handle the heterogeneity of local data distribution across parties. Although many studies have been proposed to address this challenge, we find that they fail to achieve high performance in image datasets with deep learning models. In this paper, we propose MOON: model-contrastive federated learning. MOON is a simple and effective federated learning framework. The key idea of MOON is to utilize the similarity between model representations to correct the local training of individual parties, i.e., conducting contrastive learning in model-level. Our extensive experiments show that MOON significantly outperforms the other state-of-the-art federated learning algorithms on various image classification tasks.",
+    "year": 2021,
+    "field": "Contrastive Learning",
+    "methodology": "Contrastive Learning",
+    "author_ids": [
+      "A078",
+      "A079",
+      "A080"
+    ],
+    "citation_ids": [
+      "P017",
+      "P016"
+    ],
+    "openalex_id": "https://openalex.org/W3182158470",
+    "cited_by_count": 1485
+  },
+  {
+    "id": "P022",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "abstract": "By decomposing the image formation process into a sequential application of denoising autoencoders, diffusion models (DMs) achieve state-of-the-art synthesis results on image data and beyond. Additionally, their formulation allows for a guiding mechanism to control the image generation process without retraining. However, since these models typically operate directly in pixel space, optimization of powerful DMs often consumes hundreds of GPU days and inference is expensive due to sequential evaluations. To enable DM training on limited computational resources while retaining their quality and flexibility, we apply them in the latent space of powerful pretrained autoencoders. In contrast to previous work, training diffusion models on such a representation allows for the first time to reach a near-optimal point between complexity reduction and detail preservation, greatly boosting visual fidelity. By introducing cross-attention layers into the model architecture, we turn diffusion models into powerful and flexible generators for general conditioning inputs such as text or bounding boxes and high-resolution synthesis becomes possible in a convolutional manner. Our latent diffusion models (LDMs) achieve new state of the art scores for image inpainting and class-conditional image synthesis and highly competitive performance on various tasks, including unconditional image generation, text-to-image synthesis, and super-resolution, while significantly reducing computational requirements compared to pixel-based DMs.",
+    "year": 2022,
+    "field": "Diffusion Models",
+    "methodology": "Diffusion Models",
+    "author_ids": [
+      "A081",
+      "A082",
+      "A083",
+      "A084"
+    ],
+    "citation_ids": [
+      "P031",
+      "P024"
+    ],
+    "openalex_id": "https://openalex.org/W4312933868",
+    "cited_by_count": 15132
+  },
+  {
+    "id": "P023",
+    "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+    "abstract": "We present ControlNet, a neural network architecture to add spatial conditioning controls to large, pretrained text-to-image diffusion models. ControlNet locks the production-ready large diffusion models, and reuses their deep and robust encoding layers pretrained with billions of images as a strong backbone to learn a diverse set of conditional controls. The neural architecture is connected with \"zero convolutions\" (zero-initialized convolution layers) that progressively grow the parameters from zero and ensure that no harmful noise could affect the finetuning. We test various conditioning controls, e.g., edges, depth, segmentation, human pose, etc., with Stable Diffusion, using single or multiple conditions, with or without prompts. We show that the training of ControlNets is robust with small (1m) datasets. Extensive results show that ControlNet may facilitate wider applications to control image diffusion models.",
+    "year": 2023,
+    "field": "Diffusion Models",
+    "methodology": "Diffusion Models",
+    "author_ids": [
+      "A085",
+      "A086",
+      "A087"
+    ],
+    "citation_ids": [
+      "P024",
+      "P025",
+      "P022",
+      "P026"
+    ],
+    "openalex_id": "https://openalex.org/W4390873054",
+    "cited_by_count": 4038
+  },
+  {
+    "id": "P024",
+    "title": "Diffusion Models Beat GANs on Image Synthesis",
+    "abstract": "We show that diffusion models can achieve image sample quality superior to the current state-of-the-art generative models. We achieve this on unconditional image synthesis by finding a better architecture through a series of ablations. For conditional image synthesis, we further improve sample quality with classifier guidance: a simple, compute-efficient method for trading off diversity for fidelity using gradients from a classifier. We achieve an FID of 2.97 on ImageNet 128$\\times$128, 4.59 on ImageNet 256$\\times$256, and 7.72 on ImageNet 512$\\times$512, and we match BigGAN-deep even with as few as 25 forward passes per sample, all while maintaining better coverage of the distribution. Finally, we find that classifier guidance combines well with upsampling diffusion models, further improving FID to 3.94 on ImageNet 256$\\times$256 and 3.85 on ImageNet 512$\\times$512. We release our code at https://github.com/openai/guided-diffusion",
+    "year": 2021,
+    "field": "Diffusion Models",
+    "methodology": "Diffusion Models",
+    "author_ids": [
+      "A088",
+      "A089"
+    ],
+    "citation_ids": [
+      "P031"
+    ],
+    "openalex_id": "https://openalex.org/W3162926177",
+    "cited_by_count": 2186
+  },
+  {
+    "id": "P025",
+    "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+    "abstract": "We present Imagen, a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding. Imagen builds on the power of large transformer language models in understanding text and hinges on the strength of diffusion models in high-fidelity image generation. Our key discovery is that generic large language models (e.g. T5), pretrained on text-only corpora, are surprisingly effective at encoding text for image synthesis: increasing the size of the language model in Imagen boosts both sample fidelity and image-text alignment much more than increasing the size of the image diffusion model. Imagen achieves a new state-of-the-art FID score of 7.27 on the COCO dataset, without ever training on COCO, and human raters find Imagen samples to be on par with the COCO data itself in image-text alignment. To assess text-to-image models in greater depth, we introduce DrawBench, a comprehensive and challenging benchmark for text-to-image models. With DrawBench, we compare Imagen with recent methods including VQ-GAN+CLIP, Latent Diffusion Models, and DALL-E 2, and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment. See https://imagen.research.google/ for an overview of the results.",
+    "year": 2022,
+    "field": "Diffusion Models",
+    "methodology": "Diffusion Models",
+    "author_ids": [
+      "A090",
+      "A091",
+      "A092",
+      "A093"
+    ],
+    "citation_ids": [
+      "P022",
+      "P024"
+    ],
+    "openalex_id": "https://openalex.org/W4281485151",
+    "cited_by_count": 2113
+  },
+  {
+    "id": "P026",
+    "title": "DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation",
+    "abstract": "Large text-to-image models achieved a remarkable leap in the evolution of AI, enabling high-quality and diverse synthesis of images from a given text prompt. However, these models lack the ability to mimic the appearance of subjects in a given reference set and synthesize novel renditions of them in different contexts. In this work, we present a new approach for \"personalization\" of text-to-image diffusion models. Given as input just a few images of a subject, we fine-tune a pretrained text-to-image model such that it learns to bind a unique identifier with that specific subject. Once the subject is embedded in the output domain of the model, the unique identifier can be used to synthesize novel photorealistic images of the subject contextualized in different scenes. By leveraging the semantic prior embedded in the model with a new autogenous class-specific prior preservation loss, our technique enables synthesizing the subject in diverse scenes, poses, views and lighting conditions that do not appear in the reference images. We apply our technique to several previously-unassailable tasks, including subject recontextualization, text-guided view synthesis, and artistic rendering, all while preserving the subject's key features. We also provide a new dataset and evaluation protocol for this new task of subject-driven generation. Project page: https://dreambooth.github.io/",
+    "year": 2023,
+    "field": "Diffusion Models",
+    "methodology": "Diffusion Models",
+    "author_ids": [
+      "A094",
+      "A095",
+      "A096",
+      "A097"
+    ],
+    "citation_ids": [
+      "P024",
+      "P025",
+      "P022"
+    ],
+    "openalex_id": "https://openalex.org/W4386072096",
+    "cited_by_count": 2112
+  },
+  {
+    "id": "P027",
+    "title": "Diffusion Models in Vision: A Survey",
+    "abstract": "Denoising diffusion models represent a recent emerging topic in computer vision, demonstrating remarkable results in the area of generative modeling. A diffusion model is a deep generative model that is based on two stages, a forward diffusion stage and a reverse diffusion stage. In the forward diffusion stage, the input data is gradually perturbed over several steps by adding Gaussian noise. In the reverse stage, a model is tasked at recovering the original input data by learning to gradually reverse the diffusion process, step by step. Diffusion models are widely appreciated for the quality and diversity of the generated samples, despite their known computational burdens, i.e., low speeds due to the high number of steps involved during sampling. In this survey, we provide a comprehensive review of articles on denoising diffusion models applied in vision, comprising both theoretical and practical contributions in the field. First, we identify and present three generic diffusion modeling frameworks, which are based on denoising diffusion probabilistic models, noise conditioned score networks, and stochastic differential equations. We further discuss the relations between diffusion models and other deep generative models, including variational auto-encoders, generative adversarial networks, energy-based models, autoregressive models and normalizing flows. Then, we introduce a multi-perspective categorization of diffusion models applied in computer vision. Finally, we illustrate the current limitations of diffusion models and envision some interesting directions for future research.",
+    "year": 2023,
+    "field": "Diffusion Models",
+    "methodology": "Diffusion Models",
+    "author_ids": [
+      "A098",
+      "A099",
+      "A100",
+      "A101"
+    ],
+    "citation_ids": [
+      "P017",
+      "P020",
+      "P024",
+      "P025",
+      "P022"
+    ],
+    "openalex_id": "https://openalex.org/W4360884927",
+    "cited_by_count": 1796
+  },
+  {
+    "id": "P028",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "abstract": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). 2019.",
+    "year": 2019,
+    "field": "Natural Language Processing",
+    "methodology": "Transformer Architectures",
+    "author_ids": [
+      "A102",
+      "A103",
+      "A009",
+      "A104"
+    ],
+    "citation_ids": [
+      "P009"
+    ],
+    "openalex_id": "https://openalex.org/W2963341956",
+    "cited_by_count": 33416
+  },
+  {
+    "id": "P029",
+    "title": "Transformers: State-of-the-Art Natural Language Processing",
+    "abstract": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, Remi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, Alexander Rush. Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. 2020.",
+    "year": 2020,
+    "field": "Natural Language Processing",
+    "methodology": "Transformer Architectures",
+    "author_ids": [
+      "A105",
+      "A106",
+      "A107",
+      "A108"
+    ],
+    "citation_ids": [
+      "P030",
+      "P031"
+    ],
+    "openalex_id": "https://openalex.org/W2979826702",
+    "cited_by_count": 8295
+  },
+  {
+    "id": "P030",
+    "title": "Transformer-XL: Attentive Language Models beyond a Fixed-Length Context",
+    "abstract": "Transformers have a potential of learning longer-term dependency, but are limited by a fixed-length context in the setting of language modeling. We propose a novel neural architecture Transformer-XL that enables learning dependency beyond a fixed length without disrupting temporal coherence. It consists of a segment-level recurrence mechanism and a novel positional encoding scheme. Our method not only enables capturing longer-term dependency, but also resolves the context fragmentation problem. As a result, Transformer-XL learns dependency that is 80% longer than RNNs and 450% longer than vanilla Transformers, achieves better performance on both short and long sequences, and is up to 1,800+ times faster than vanilla Transformers during evaluation. Notably, we improve the state-ofthe-art results of bpc/perplexity to 0.99 on en-wiki8, 1.08 on text8, 18.3 on WikiText-103, 21.8 on One Billion Word, and 54.5 on Penn Treebank (without finetuning). When trained only on WikiText-103, Transformer-XL manages to generate reasonably coherent, novel text articles with thousands of tokens. Our code, pretrained models, and hyperparameters are available in both Tensorflow and PyTorch 1 .",
+    "year": 2019,
+    "field": "Natural Language Processing",
+    "methodology": "Transformer Architectures",
+    "author_ids": [
+      "A109",
+      "A110",
+      "A111",
+      "A112"
+    ],
+    "citation_ids": [
+      "P028"
+    ],
+    "openalex_id": "https://openalex.org/W2964110616",
+    "cited_by_count": 3202
+  },
+  {
+    "id": "P031",
+    "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+    "abstract": "Recent progress in natural language processing has been driven by advances in both model architecture and model pretraining. Transformer architectures have facilitated building higher-capacity models and pretraining has made it possible to effectively utilize this capacity for a wide variety of tasks. \\textit{Transformers} is an open-source library with the goal of opening up these advances to the wider machine learning community. The library consists of carefully engineered state-of-the art Transformer architectures under a unified API. Backing this library is a curated collection of pretrained models made by and available for the community. \\textit{Transformers} is designed to be extensible by researchers, simple for practitioners, and fast and robust in industrial deployments. The library is available at \\url{https://github.com/huggingface/transformers}.",
+    "year": 2019,
+    "field": "Natural Language Processing",
+    "methodology": "Transformer Architectures",
+    "author_ids": [
+      "A113",
+      "A106",
+      "A107",
+      "A108"
+    ],
+    "citation_ids": [
+      "P030",
+      "P028"
+    ],
+    "openalex_id": "https://openalex.org/W2980282514",
+    "cited_by_count": 3147
+  },
+  {
+    "id": "P032",
+    "title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+    "abstract": "MOTIVATION: Deciphering the language of non-coding DNA is one of the fundamental problems in genome research. Gene regulatory code is highly complex due to the existence of polysemy and distant semantic relationship, which previous informatics methods often fail to capture especially in data-scarce scenarios. RESULTS: To address this challenge, we developed a novel pre-trained bidirectional encoder representation, named DNABERT, to capture global and transferrable understanding of genomic DNA sequences based on up and downstream nucleotide contexts. We compared DNABERT to the most widely used programs for genome-wide regulatory elements prediction and demonstrate its ease of use, accuracy and efficiency. We show that the single pre-trained transformers model can simultaneously achieve state-of-the-art performance on prediction of promoters, splice sites and transcription factor binding sites, after easy fine-tuning using small task-specific labeled data. Further, DNABERT enables direct visualization of nucleotide-level importance and semantic relationship within input sequences for better interpretability and accurate identification of conserved sequence motifs and functional genetic variant candidates. Finally, we demonstrate that pre-trained DNABERT with human genome can even be readily applied to other organisms with exceptional performance. We anticipate that the pre-trained DNABERT model can be fined tuned to many other sequence analyses tasks. AVAILABILITY AND IMPLEMENTATION: The source code, pretrained and finetuned model for DNABERT are available at GitHub (https://github.com/jerryji1993/DNABERT). SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "year": 2021,
+    "field": "Natural Language Processing",
+    "methodology": "Transformer Architectures",
+    "author_ids": [
+      "A114",
+      "A115",
+      "A116",
+      "A117"
+    ],
+    "citation_ids": [
+      "P009"
+    ],
+    "openalex_id": "https://openalex.org/W3127238141",
+    "cited_by_count": 1330
+  }
+]
