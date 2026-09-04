@@ -1,0 +1,458 @@
+[
+  {
+    "user_id": "U000",
+    "paper_id": "P010",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U000",
+    "paper_id": "P007",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U000",
+    "paper_id": "P008",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U000",
+    "paper_id": "P009",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U000",
+    "paper_id": "P006",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U001",
+    "paper_id": "P002",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U001",
+    "paper_id": "P001",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U001",
+    "paper_id": "P003",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U001",
+    "paper_id": "P004",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U001",
+    "paper_id": "P005",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U001",
+    "paper_id": "P000",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U002",
+    "paper_id": "P007",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U002",
+    "paper_id": "P010",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U002",
+    "paper_id": "P008",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U002",
+    "paper_id": "P009",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U002",
+    "paper_id": "P006",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U003",
+    "paper_id": "P003",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U003",
+    "paper_id": "P005",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U003",
+    "paper_id": "P004",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U003",
+    "paper_id": "P002",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U004",
+    "paper_id": "P026",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U004",
+    "paper_id": "P024",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U004",
+    "paper_id": "P027",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U004",
+    "paper_id": "P022",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U004",
+    "paper_id": "P023",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U004",
+    "paper_id": "P025",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U005",
+    "paper_id": "P005",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U005",
+    "paper_id": "P002",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U005",
+    "paper_id": "P001",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U005",
+    "paper_id": "P000",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U006",
+    "paper_id": "P024",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U006",
+    "paper_id": "P025",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U006",
+    "paper_id": "P022",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U006",
+    "paper_id": "P026",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U006",
+    "paper_id": "P023",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U006",
+    "paper_id": "P027",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U007",
+    "paper_id": "P001",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U007",
+    "paper_id": "P003",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U007",
+    "paper_id": "P005",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U007",
+    "paper_id": "P004",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U007",
+    "paper_id": "P002",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U008",
+    "paper_id": "P008",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U008",
+    "paper_id": "P009",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U008",
+    "paper_id": "P010",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U008",
+    "paper_id": "P007",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U008",
+    "paper_id": "P006",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U009",
+    "paper_id": "P027",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U009",
+    "paper_id": "P022",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U009",
+    "paper_id": "P023",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U009",
+    "paper_id": "P026",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U010",
+    "paper_id": "P017",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U010",
+    "paper_id": "P020",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U010",
+    "paper_id": "P021",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U010",
+    "paper_id": "P018",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U010",
+    "paper_id": "P019",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U010",
+    "paper_id": "P016",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U011",
+    "paper_id": "P006",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U011",
+    "paper_id": "P010",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U011",
+    "paper_id": "P009",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U011",
+    "paper_id": "P007",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U011",
+    "paper_id": "P008",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U012",
+    "paper_id": "P014",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U012",
+    "paper_id": "P012",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U012",
+    "paper_id": "P011",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U012",
+    "paper_id": "P015",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U012",
+    "paper_id": "P013",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U013",
+    "paper_id": "P014",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U013",
+    "paper_id": "P015",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U013",
+    "paper_id": "P012",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U013",
+    "paper_id": "P011",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U013",
+    "paper_id": "P013",
+    "action": "cited_in_draft",
+    "weight": 5
+  },
+  {
+    "user_id": "U014",
+    "paper_id": "P009",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U014",
+    "paper_id": "P010",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U014",
+    "paper_id": "P006",
+    "action": "bookmark",
+    "weight": 3
+  },
+  {
+    "user_id": "U014",
+    "paper_id": "P008",
+    "action": "view",
+    "weight": 1
+  },
+  {
+    "user_id": "U014",
+    "paper_id": "P007",
+    "action": "view",
+    "weight": 1
+  }
+]
