@@ -1,0 +1,24 @@
+# --- Core ---
+pandas>=2.0
+numpy>=1.24
+
+# --- Graph engine ---
+networkx>=3.2
+# kuzu>=0.4.0          # Uncomment to swap in Kùzu DB (embedded, on-disk graph DB) instead of NetworkX.
+                        # graph_store.py is written so KuzuGraphStore and NetworkXGraphStore share one interface.
+
+# --- Vector DB + embeddings ---
+chromadb>=0.5.0
+sentence-transformers>=2.7.0
+
+# --- Recommender ---
+implicit>=0.7.2
+scipy>=1.11
+
+# --- GraphRAG LLM clients (free-tier) ---
+groq>=0.9.0             # Groq API (fast, free-tier Llama models)
+google-genai>=0.3.0     # Google Gemini API (free-tier)
+
+# --- Frontend ---
+streamlit>=1.36
+pyvis>=0.3.2
