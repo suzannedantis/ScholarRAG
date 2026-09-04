@@ -22,3 +22,4 @@ google-genai>=0.3.0     # Google Gemini API (free-tier)
 # --- Frontend ---
 streamlit>=1.36
 pyvis>=0.3.2
+torchvision
